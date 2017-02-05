@@ -1,7 +1,8 @@
 Link Media HTML Webpack Plugin
 ==============================
 
-[![Build Status](https://travis-ci.org/yaycmyk/link-media-html-webpack-plugin.svg?branch=master)](https://travis-ci.org/yaycmyk/link-media-html-webpack-plugin)
+[![Build Status](https://travis-ci.org/yaycmyk/link-media-html-webpack-plugin.svg?branch=master)](https://travis-ci.org/yaycmyk/link-media-html-webpack-plugin) [![codecov](https://codecov.io/gh/yaycmyk/link-media-html-webpack-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/yaycmyk/link-media-html-webpack-plugin)
+
 
 This is an extension plugin for the [webpack](http://webpack.github.io) plugin [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin).
 
