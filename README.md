@@ -1,6 +1,8 @@
 Link Media HTML Webpack Plugin
 ==============================
 
+[![Build Status](https://travis-ci.org/yaycmyk/link-media-html-webpack-plugin.svg?branch=master)](https://travis-ci.org/yaycmyk/link-media-html-webpack-plugin)
+
 This is an extension plugin for the [webpack](http://webpack.github.io) plugin [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin).
 
 It automatically adds the [media attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#Attributes) to generated `<link>` HTML elements, inferred from the CSS filename according to the pattern `media_{base64MediaString}`:
