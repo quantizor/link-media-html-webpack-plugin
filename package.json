@@ -1,11 +1,11 @@
 {
   "name": "link-media-html-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parses CSS filenames to tag link elements with media attributes.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jantimon/html-Resource-hints-plugin.git"
+    "url": "https://github.com/yaycmyk/link-media-html-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
