@@ -1,6 +1,8 @@
 Link Media HTML Webpack Plugin
 ==============================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yaycmyk/link-media-html-webpack-plugin.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/yaycmyk/link-media-html-webpack-plugin.svg?branch=master)](https://travis-ci.org/yaycmyk/link-media-html-webpack-plugin) [![codecov](https://codecov.io/gh/yaycmyk/link-media-html-webpack-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/yaycmyk/link-media-html-webpack-plugin)
 
 
