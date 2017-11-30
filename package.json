@@ -32,7 +32,7 @@
     "jest-cli": "^19.0.1",
     "memory-fs": "^0.4.1",
     "style-loader": "^0.13.1",
-    "webpack": "^2.2.0"
+    "webpack": "^3.9.0"
   },
   "dependencies": {
     "object-assign": "^4.1.0"
