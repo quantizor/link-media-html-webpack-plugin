@@ -31,7 +31,7 @@
     "html-webpack-plugin": "^2.26.0",
     "jest-cli": "^19.0.1",
     "memory-fs": "^0.4.1",
-    "style-loader": "^0.13.1",
+    "style-loader": "^0.19.1",
     "webpack": "^2.2.0"
   },
   "dependencies": {
