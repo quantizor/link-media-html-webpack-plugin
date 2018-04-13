@@ -39,13 +39,13 @@ class LinkMediaHTMLWebpackPlugin {
     }
 
     apply(compiler) {
-        // Hook into the html-webpack-plugin processing
-        compiler.plugin('compilation', (compilation) => {
-            compilation.plugin('html-webpack-plugin-alter-asset-tags', (htmlPluginData, callback) => {
-                callback(null, assign({}, htmlPluginData, {
+				// Hook into the html-webpack-plugin processing
+				compiler.hooks.compilation.tap('LinkMediaHtmlWebpackPlugin', (compilation) => {
+            compilation.hooks.htmlWebpackPluginAlterAssetTags.tap('LinkMediaHtmlWebpackPlugin', (htmlPluginData) => {
+                return assign({}, htmlPluginData, {
                     body: htmlPluginData.body.map(addMediaAttribute),
                     head: htmlPluginData.head.map(addMediaAttribute),
-                }));
+                });
             });
         });
     }
