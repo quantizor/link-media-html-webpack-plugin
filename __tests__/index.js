@@ -27,7 +27,7 @@ describe('LinkMediaHTMLPlugin', () => {
         const compiler = webpack({
             entry: path.join(FIXTURE_DIR, 'entry.js'),
             module: {
-              loaders: [
+              rules: [
                 {
                     test: /print\.css$/,
                     use: printStyleExtractor.extract('css-loader'),
