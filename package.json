@@ -24,7 +24,7 @@
     "node": ">= 4"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
+    "babel-eslint": "^8.0.3",
     "codecov": "^3.0.0",
     "css-loader": "^0.28.11",
     "eslint": "^4.12.0",
