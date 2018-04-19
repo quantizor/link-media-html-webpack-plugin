@@ -1,6 +1,6 @@
 {
   "name": "link-media-html-webpack-plugin",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Parses CSS filenames to tag link elements with media attributes.",
   "main": "index.js",
   "repository": {
@@ -25,14 +25,15 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
-    "css-loader": "^0.26.1",
+    "codecov": "^3.0.0",
+    "css-loader": "^0.28.11",
     "eslint": "^4.12.0",
-    "extract-text-webpack-plugin": "^2.0.0-rc.3",
-    "html-webpack-plugin": "^2.26.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
     "jest-cli": "^19.0.1",
     "memory-fs": "^0.4.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^2.2.0"
+    "style-loader": "^0.21.0",
+    "webpack": "^4.5.0"
   },
   "dependencies": {
     "object-assign": "^4.1.0"
